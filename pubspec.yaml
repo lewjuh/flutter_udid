@@ -1,6 +1,6 @@
 name: flutter_udid
 description: Plugin for getting a persistent UDID accross reinstalls on iOS and Android
-version: 0.0.3
+version: 0.0.4
 author: Leon Kukuk <leon@kukuk.me>
 homepage: https://github.com/GigaDroid/flutter_udid
 
@@ -9,10 +9,9 @@ dependencies:
     sdk: flutter
   crypto: ^2.0.6
 
-
 environment:
-  sdk: ">=2.0.0-dev.28.0 <3.0.0"
-  flutter: ">=0.1.4 <2.0.0"
+  sdk: '>=2.0.0-dev.28.0 <3.0.0'
+  flutter: '>=0.1.4 <2.0.0'
 # For information on the generic Dart part of this file, see the
 # following page: https://www.dartlang.org/tools/pub/pubspec
 
@@ -21,7 +20,6 @@ flutter:
   plugin:
     androidPackage: de.gigadroid.flutterudid
     pluginClass: FlutterUdidPlugin
-
   # To add assets to your plugin package, add an assets section, like this:
   # assets:
   #  - images/a_dot_burr.jpeg
@@ -32,7 +30,6 @@ flutter:
   #
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.io/assets-and-images/#resolution-aware.
-
   # To add custom fonts to your plugin package, add a fonts section here,
   # in this "flutter" section. Each entry in this list should have a
   # "family" key with the font family name, and a "fonts" key with a
